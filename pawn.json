@@ -1,0 +1,16 @@
+{
+    "user": "ScavengeSurvive",
+    "repo": "library_name",
+    "entry": "test.pwn",
+    "output": "test.amx",
+    "dependencies": [
+        "Southclaws/samp-stdlib",
+        "Southclaws/samp-logger",
+        "Misiur/YSI-Includes",
+        "samp-incognito/samp-streamer-plugin"
+    ],
+    "dev_dependencies": ["ScavengeSurvive/test-boilerplate", "Southclaws/zcmd"],
+    "runtime": {
+        "plugins": ["samp-incognito/samp-streamer-plugin"]
+    }
+}
